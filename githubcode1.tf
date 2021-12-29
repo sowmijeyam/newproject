@@ -62,7 +62,7 @@ resource "aws_route_table_association" "Routetableacco" {
 }
 
 resource "aws_instance" "jeni" {
-  ami          		 = "ami-07315f74f3fa6a5a3" # ap-southeast-1
+  ami          		 = "ami-052cef05d01020f1d" # ap-southeast-1
   instance_type 	 = "t2.micro"
 }
 
